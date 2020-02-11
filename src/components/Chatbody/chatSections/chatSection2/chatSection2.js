@@ -18,7 +18,7 @@ export default function chatSection2() {
     return (
         <div className="section2">
             <div className="borderLine flex flexSpace">
-                <ul>
+                <ul className="borUl">
                     <li><img src={time} alt="time"/></li>
                     <li><img src={delet} alt="delete"/></li>
                     <li><img src={edit} alt="edit"/></li>

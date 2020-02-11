@@ -8,9 +8,11 @@ import attachment from '../../assets/attachment.svg'
 import ChatSection2 from './chatSections/chatSection2/chatSection2';
 
 
+
 export default function Chatbody() {
     return ( 
         <div className="section">
+       
             <h2>Conversation</h2>
             <div className="sectionFlex">
                 <section className="section1">
@@ -73,7 +75,7 @@ export default function Chatbody() {
                             <h5>Used Electronic Test Equipment Not Wor…</h5>
                             <p>Hello guys, I have been unable to make use of</p>
                         </div>
-                    </div><div className="borderLine borderDent">
+                    </div><div className="borderLine borderDent pad">
                         <div className="chatFlex">
                             <img src={apple} alt="twitter"/>  
                             <h4>Kari Granleese</h4>
