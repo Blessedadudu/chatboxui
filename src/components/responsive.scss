@@ -30,8 +30,16 @@
     .borRight {
         // display: none;
         border-bottom: 2px solid rgb(221, 221, 221);
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
+
+    .flextry2 {
+        .borRight {
+            border-right: 2px solid rgb(255, 255, 255);
+            height: 85vh;
+        }
+    }
+
 
 
     .flextry2 {
