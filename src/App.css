@@ -8,14 +8,10 @@
 
 .sideChat {
     display: flex;
-    width: auto;
-    height: auto ;
     
 }
 
 
-body, html {
-
-    
-    
+body {
+  position: fixed;   
 }

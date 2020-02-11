@@ -1,6 +1,11 @@
 @media only screen and (max-width: 900px) {
+    body {
+        position: relative;
+    }
 
-   
+    .section1 {
+        height: 76vh;
+    }
     .sectionFlex { 
         display: grid;
         grid-template-columns: 1fr;
