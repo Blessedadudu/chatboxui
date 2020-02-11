@@ -1,0 +1,41 @@
+.nav_icon {
+    font-size: 10px;
+    height: 100%;
+    padding: 15px;
+    top: 0;
+    background: #6554c0;
+    color: rgb(235, 232, 232);
+    display: flex;
+    justify-content: space-between;
+
+    .navlogo {
+        width: 80px;
+        height: 25px;
+        object-fit: contain;
+    }
+    
+}
+
+.organisation {
+    display: flex;
+    align-items: center;
+
+    .s {
+        background: rgba(255, 255, 255, 0.555);
+        border-radius: 50%;
+        padding: 5px 10px;
+        color: white;
+        font-size: 14px;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: normal;
+        margin-right: 10px;
+    }
+
+    .fa-chevron-down {
+        font-size: 10px;
+        margin-left: 7px;
+        color: black;
+
+    }
+}

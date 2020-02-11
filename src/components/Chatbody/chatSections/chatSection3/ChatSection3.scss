@@ -1,0 +1,75 @@
+@import '../../Chatbody.scss';
+
+
+.section3 {
+    height: 100%;
+    width: 25vw;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.comments {
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212242;
+}
+.commentFlex {
+    display: flex;
+    padding-bottom: 20px;
+    p {
+        padding-right: 15px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        margin: 5px 7px 5px 0;
+        border-radius: 50%;
+    }
+
+    .fa-user-circle {
+        margin: 5px;
+        color: rgba(207, 207, 207, 0.685);
+        font-size: 25px;
+    }
+}
+
+.commentBox {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    border: solid 0.8px #e9edf0;
+    background-color: #f6fafd;
+    align-items: center;
+    font-size: 12px;
+    color: #595e8a;
+
+}
+
+.commentBox2 {
+    border-radius: 13px;
+    padding: 8px 10px;
+    border: solid 0.8px #e9edf0;
+    background-color: #f6fafd;
+    align-items: center;
+    font-size: 12px;
+    color: #595e8a;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .fa-telegram {
+        color: #6554c0;
+        font-size: 22px;
+
+    }
+}
+.commentFlexLast {
+    padding-top: 14rem;
+    // margin: 0;
+}
