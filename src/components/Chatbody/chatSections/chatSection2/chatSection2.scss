@@ -24,11 +24,12 @@ ul {
 
 .flextry2 {
     display: flex;
-    grid-template-columns: 0.1fr 1fr;
+    // grid-template-columns: 0.1fr 1fr;
 
     .borRight {
         border-right: 2px solid rgb(224, 224, 224);
-        height: 100vh;
+        height: 100%;
+        // width: 60%;
     }
 }
 
@@ -191,7 +192,7 @@ ul {
 
 .textbox {
     width: 90%;
-    margin: 5rem 0 25px 32px;
+    margin: 5rem 0 3rem 32px;
     border-radius: 10px;
     border: solid 0.8px #e9edf0;
     padding-top: 0;

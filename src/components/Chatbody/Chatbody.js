@@ -90,7 +90,7 @@ export default function Chatbody() {
                 </section>
 
 
-
+                    
                     <ChatSection2/>
             
             </div>

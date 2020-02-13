@@ -36,7 +36,7 @@ export default function chatSection2() {
             </div>
             
 
-            <div className="flextry2" >
+            <div className="flextry2">
                 <div className="borRight">
                     <p className="par parbold">WhatsApp for Business: Don't forget to start your free trial</p>
                     <div className="section2Flex">

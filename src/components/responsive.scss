@@ -4,7 +4,8 @@
     }
 
     .section1 {
-        height: 100vh;
+        height: 100%;
+        // margin: 0;
     }
     .sectionFlex { 
         display: grid;
@@ -17,10 +18,13 @@
 
     .section {
         width: 100vw;
+        margin-left: 0;
+        margin-top: 0;
     }
     
     .nav_icon {
-        min-width: 105vw;
+        width: 100%;
+        position: relative;
     }
 
     .section2 .par {
@@ -36,7 +40,7 @@
     .flextry2 {
         .borRight {
             border-right: 2px solid rgb(255, 255, 255);
-            height: 147vh;
+            height: 147%;
         }
     }
 
@@ -78,7 +82,7 @@
     }
 
     .pad {
-        padding-bottom: 50px;
+        padding-bottom: 1rem;
     }
 
     .section2Flex {
@@ -113,12 +117,49 @@
         // margin-bottom: 20px;
         justify-content: space-around;
         background-color: #6454c035;
-        width: 105vw;
+        width: 100%;
 
         ul {
             margin: 0 !important;
         }
 
+    }
+
+}
+
+@media screen and (min-width : 900px) and (max-width: 1200px) {
+    .sectionFlex { 
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    .flextry2 {
+    
+        .borRight {
+            border-right: 2px solid rgb(224, 224, 224);
+            height: 100vh;
+            width: 70%;
+        }
+    }
+
+    .section3 {
+        height: 100%;
+        width: 28vw;
+        padding: 10px;
+        background-color: #ffffff;
+    }
+    
+    .section {
+        margin-top: 1rem;
+    }
+
+    .textbox {
+        width: 90%;
+        margin: 8rem 0 3rem 32px;
+    }
+    
+    .pad {
+        padding-bottom: 3rem;
     }
 
 }

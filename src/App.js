@@ -7,7 +7,7 @@ import './components/responsive.scss';
 
 function App() {
   return (
-    <div className="body">
+    <div>
       <Navbar/>
       <div className="sideChat">
         <Sidebar/>
